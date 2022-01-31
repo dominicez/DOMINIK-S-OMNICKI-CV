@@ -201,6 +201,11 @@ i {
     animation: sass 2s;
 }
 
+.react {
+    width: 50%;
+    animation: react 2s;
+}
+
 img {
     border-radius: 5px;
 }
@@ -288,6 +293,16 @@ img:hover {
 
     100% {
         width: 70%;
+    }
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
     }
 }
 
